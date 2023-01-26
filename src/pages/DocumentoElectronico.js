@@ -18,13 +18,13 @@ function DocumentoElectronico() {
     const [startDate, setStartDate] = useState(new Date());
     return (
         <>
-        
+            
         <Container>
             
 
             <Form>
                 <Row>
-                    <h1>Documento Electrónico</h1>
+                    <h3>Documento Electrónico</h3>
                 </Row>
                 <Row>
                 &nbsp;
@@ -151,8 +151,6 @@ function DocumentoElectronico() {
                     <Col></Col>
                 </Row>
 
-
-                
             </Form>
         </Container>
 <br/>
